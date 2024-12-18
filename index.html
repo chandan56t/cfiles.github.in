@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Publisher</title>
+</head>
+<body>
+    <h1>Welcome to My Document Publisher</h1>
+    <p>Upload your documents and access them below:</p>
+
+    <!-- Document Upload Section -->
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="upload">Select Document to Upload:</label><br>
+        <input type="file" id="upload" name="file" accept=".pdf,.docx,.txt"><br><br>
+        <button type="submit">Upload Document</button>
+    </form>
+
+    <!-- Document List -->
+    <h2>Published Documents</h2>
+    <ul>
+        <li><a href="documents/example1.pdf" target="_blank">Example Document 1</a></li>
+        <li><a href="documents/example2.docx" target="_blank">Example Document 2</a></li>
+        <li><a href="documents/example3.txt" target="_blank">Example Document 3</a></li>
+    </ul>
+</body>
+</html>
